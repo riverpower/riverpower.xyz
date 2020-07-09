@@ -1,0 +1,7 @@
+{
+  "name": "riverpower.xyz",
+  "version": "0.0.1",
+  "description": "Website and Radio stack for Riverpower Podcast Mill",
+  "main": "index.js",
+  "license": "MIT"
+}
