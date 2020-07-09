@@ -1,4 +1,4 @@
-#riverpower.xyz | Web Stack for the Riverpower Podcast Mill LLC
+# riverpower.xyz | Web Stack for the Riverpower Podcast Mill LLC
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
