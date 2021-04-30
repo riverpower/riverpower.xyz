@@ -6,7 +6,6 @@ import './App.css';
 import Header from './components/Header/Header';
 
 import Home from './pages/Home/Home';
-import Contact from './pages/Contact/Contact'
 import Radio from './pages/Radio/Radio'
 import Shows from './pages/Shows/Shows'
 
@@ -21,7 +20,6 @@ function App() {
             <Switch>
               <Route exact path='/' component={Home}/>
               <Route path='/shows' component={Shows}/>
-              <Route path='/contact' component={Contact}/>
               <Route path='/radio' component={Radio}/>
             </Switch>
           </Container>

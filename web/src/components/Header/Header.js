@@ -28,10 +28,7 @@ const Header = (props) => {
           <Nav className="mr-auto" navbar>
             <NavItem>
               <NavLink tag={RRNavLink} exact to='/shows'>Shows</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={RRNavLink} exact to='/contact'>Contact</NavLink>
-            </NavItem>                        
+            </NavItem>                       
           </Nav>
           <NavbarText>
             <NavItem>
