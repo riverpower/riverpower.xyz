@@ -22,7 +22,7 @@ const Header = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/"><img src={logo} width="50" height="50" alt="logo" />Riverpower Podcast Mill</NavbarBrand>
+        <NavbarBrand href="/"><img src={logo} width="70" height="70" alt="logo" />Riverpower Podcast Mill</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -30,15 +30,12 @@ const Header = (props) => {
               <NavLink tag={RRNavLink} exact to='/shows'>Shows</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={RRNavLink} exact to='/radio'>Radio</NavLink>
-            </NavItem>
-            <NavItem>
               <NavLink tag={RRNavLink} exact to='/about'>About</NavLink>
             </NavItem>                        
           </Nav>
           <NavbarText>
             <NavItem>
-              <NavLink tag={RRNavLink} exact to='/radio'>Radio Player Here</NavLink>
+              <NavLink tag={RRNavLink} exact to='/radio'>Radio</NavLink>
             </NavItem>
           </NavbarText>
         </Collapse>
