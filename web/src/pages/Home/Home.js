@@ -1,27 +1,36 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import { SocialIcon } from 'react-social-icons';
+import logo from '../../logo.png';
+import { Container, Row, Col } from 'reactstrap';
 
 class Home extends React.Component {
   render(){
     return(
       <div>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Container className='home-page'>
+          <Row className='align-items-center' style={{textAlign: 'center', paddingTop: 24 }}>
+            <Col xs='12' sm='12' md='12' lg='12'>
+              <img src={logo} className="App-logo" alt="logo" />  
+            </Col>
+            <Col xs='12' sm='12' md='12' lg='12'>
+              <h3>Mission</h3>
+              <h6>Riverpower Podcast Mill is a collaborative coalescence of independent creators and entertainers. Our mission is to enable and support the development, production, and distribution of works and foster an environment of nurturing individual creativity and collective power.</h6>
+            </Col>
+          </Row>
+          <Row style={{paddingTop: 48}}>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
+              <SocialIcon url="https://twitter.com/" />
+            </Col>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
+              <SocialIcon url="https://facebook.com/" />
+            </Col>
+            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
+              <SocialIcon url="https://instagram.com/" />
+            </Col>                      
+          </Row>
+        </Container>  
+      </div>
     );
   }
 }
-
 export default Home;
