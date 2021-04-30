@@ -1,19 +1,13 @@
 import React from 'react';
-import logo from '../../logo.png';
 import { Container, Row, Col } from 'reactstrap';
+import logo from '../../logo.png';
 
-class Home extends React.Component {
+
+class Contact extends React.Component {
   render(){
     return(
       <div>
         <Container className='home-page'>
-          <Row style={{textAlign: 'center', paddingTop: 24 }}>
-            <Col xs='12' sm='12' md='12' lg={{size: 4, offset: 4}}>
-              <h2>
-                Riverpower Podcast Mill
-              </h2>
-            </Col>
-          </Row>
           <Row className='align-items-center' style={{textAlign: 'center', paddingTop: 24 }}>
             <Col xs='12' sm='12' md='12' lg='4'>
               <img src={logo} className="App-logo" alt="logo" />  
@@ -64,8 +58,9 @@ class Home extends React.Component {
           </Row>
         </Container>  
       </div>
+
     );
   }
 }
 
-export default Home;
+export default Contact;

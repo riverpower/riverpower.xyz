@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, CardImg } from 'reactstrap';
+import { Container, Row, Col } from 'reactstrap';
 import tmhlogo from '../../tmh.jpg';
 
 class Shows extends React.Component {

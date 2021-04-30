@@ -30,7 +30,7 @@ const Header = (props) => {
               <NavLink tag={RRNavLink} exact to='/shows'>Shows</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink tag={RRNavLink} exact to='/about'>About</NavLink>
+              <NavLink tag={RRNavLink} exact to='/contact'>Contact</NavLink>
             </NavItem>                        
           </Nav>
           <NavbarText>
