@@ -65,7 +65,7 @@ class Shows extends React.Component {
         </Row>   
         <Row style={{paddingTop: 24}}> 
           <Col xs='12' sm='12' md='12' lg='3'>
-            <a href="https://www.shinypodcast.com" target="_blank" rel="noopener noreferrer">
+            <a href="http://www.shinypodcast.com" target="_blank" rel="noopener noreferrer">
             <img src='https://assets.fireside.fm/file/fireside-images/podcasts/images/e/ef1da295-a0e6-4846-95ec-495fa785f6a0/cover_small.jpg?v=1' alt="" />
             </a>
           </Col>
