@@ -51,7 +51,29 @@ class Shows extends React.Component {
             <h3>Please Enjoy the View</h3>
             <p>Every other week, Host Jacob Garnjost talks with musicians, filmmakers, designers, and artists of all shapes and sizes about their work and their lives. This podcast examines the creative process and how art fits into all of our lives.</p>
           </Col>
-        </Row>             
+        </Row>
+        <Row style={{paddingTop: 24}}> 
+          <Col xs='12' sm='12' md='12' lg='3'>
+            <a href="https://stonesoup.fireside.fm/" target="_blank" rel="noopener noreferrer">
+            <img src='https://assets.fireside.fm/file/fireside-images/podcasts/images/c/c25f62db-9b98-4d0a-8fa7-8bfdb68931f4/cover_small.jpg?v=1' alt="" />
+            </a>
+          </Col>
+          <Col xs='12' sm='12' md='12' lg='9' style={{paddingLeft: 36}}>
+            <h3>Stone Soup Podcast</h3>
+            <p></p>
+          </Col>
+        </Row>   
+        <Row style={{paddingTop: 24}}> 
+          <Col xs='12' sm='12' md='12' lg='3'>
+            <a href="https://www.shinypodcast.com" target="_blank" rel="noopener noreferrer">
+            <img src='https://assets.fireside.fm/file/fireside-images/podcasts/images/e/ef1da295-a0e6-4846-95ec-495fa785f6a0/cover_small.jpg?v=1' alt="" />
+            </a>
+          </Col>
+          <Col xs='12' sm='12' md='12' lg='9' style={{paddingLeft: 36}}>
+            <h3>Shiny Podcast</h3>
+            <p>Shiny Podcast: following the light and throwing a little shade on the newest and brightest in today’s gaming and technology...</p>
+          </Col>
+        </Row>                             
       </Container>  
 
     );
