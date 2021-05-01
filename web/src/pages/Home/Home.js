@@ -18,15 +18,18 @@ class Home extends React.Component {
             </Col>
           </Row>
           <Row style={{paddingTop: 48}}>
-            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
-              <SocialIcon url="https://twitter.com/" />
+            <Col xs='12' sm='12' md='12' lg='3' style={{paddingTop: 24}}>
+              <SocialIcon url="https://twitter.com/PodcastMill" />
             </Col>
-            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
-              <SocialIcon url="https://facebook.com/" />
+            <Col xs='12' sm='12' md='12' lg='3' style={{paddingTop: 24}}>
+              <SocialIcon url="https://www.facebook.com/Riverpower-Podcast-Mill-105001174533195/" />
             </Col>
-            <Col xs='12' sm='12' md='12' lg='4' style={{paddingTop: 24}}>
+            <Col xs='12' sm='12' md='12' lg='3' style={{paddingTop: 24}}>
               <SocialIcon url="https://instagram.com/" />
-            </Col>                      
+            </Col>
+            <Col xs='12' sm='12' md='12' lg='3' style={{paddingTop: 24}}>
+              <SocialIcon url="mailto:pulpfrombeyond@gmail.com" />
+            </Col>                    
           </Row>
         </Container>  
       </div>
