@@ -12,9 +12,15 @@ class Home extends React.Component {
             <Col xs='12' sm='12' md='12' lg='12'>
               <img src={logo} className="App-logo" alt="logo" />  
             </Col>
-            <Col xs='12' sm='12' md='12' lg='12'>
-              <h3>Mission</h3>
-              <h6>Riverpower Podcast Mill is a collaborative coalescence of independent creators and entertainers. Our mission is to enable and support the development, production, and distribution of works and foster an environment of nurturing individual creativity and collective power.</h6>
+            <Container className='radio'>
+              <Row className='align-items-center' style={{textAlign: 'center', paddingTop: 24 }}>
+                <Col xs='12' sm='12' md='12' lg='12'>
+                  <iframe src="https://radio.riverpower.xyz/public/riverpower_radio/embed?theme=light" title="radio" frameborder="0" allowtransparency="true" styles="width: 100%; min-height: 150px; border: 0;"></iframe>            
+                </Col>                    
+              </Row>
+            </Container>  
+            <Col xs='12' sm='12' md='12' lg='12' style={{textAlign: 'center', paddingTop: 24 }}>
+              <h6><strong>Riverpower Podcast Mill</strong> is a collaborative coalescence of independent creators and entertainers. Our mission is to enable and support the development, production, and distribution of works and foster an environment of nurturing individual creativity and collective power.</h6>
             </Col>
           </Row>
           <Row style={{paddingTop: 48}}>

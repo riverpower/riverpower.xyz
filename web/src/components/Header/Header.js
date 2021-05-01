@@ -6,8 +6,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  NavbarText
+  NavLink
 } from 'reactstrap';
 import { NavLink as RRNavLink } from 'react-router-dom'
 import logo from '../../logo.png';
@@ -30,11 +29,6 @@ const Header = (props) => {
               <NavLink tag={RRNavLink} exact to='/shows'>Shows</NavLink>
             </NavItem>                       
           </Nav>
-          <NavbarText>
-            <NavItem>
-              <NavLink tag={RRNavLink} exact to='/radio'>Radio</NavLink>
-            </NavItem>
-          </NavbarText>
         </Collapse>
       </Navbar>
     </div>
