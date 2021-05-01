@@ -26,6 +26,9 @@ const Header = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
+              <NavLink tag={RRNavLink} exact to='/'>Home</NavLink>
+            </NavItem>              
+            <NavItem>
               <NavLink tag={RRNavLink} exact to='/shows'>Shows</NavLink>
             </NavItem>                       
           </Nav>
