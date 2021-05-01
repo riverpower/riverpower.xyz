@@ -21,7 +21,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md">
+      <Navbar color="white" light expand="md">
         <NavbarBrand href="/"><img src={logo} width="70" height="70" alt="logo" />Riverpower Podcast Mill</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
